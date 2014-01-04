@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    ${structure:form}
+    <tal:result condition="result">
+      <h2>Result</h2>
+      <div>
+	Diag: ${result['diag'].diagram}
+	Name: ${result['name']}
+      </div>
+    </tal:result>
+  </body>
+</html>
